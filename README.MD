@@ -8,10 +8,10 @@
 
 ## Использование
 
-Для извлечения данных, отправьте POST-запрос на адрес https://ijtest.tw1.ru:8000/process_pdf, указав в теле запроса ссылку на PDF-документ. Пример запроса с использованием curl:
+Для извлечения данных, отправьте POST-запрос на адрес 127.0.0.1:8000/process_pdf, указав в теле запроса ссылку на PDF-документ. Пример запроса с использованием curl:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"pdf_url": "http://sikkensdecor.ru/test_ocr/12.pdf"}' https://ijtest.tw1.ru:8000/process_pdf
+curl -X POST -H "Content-Type: application/json" -d '{"pdf_url": "ссылка на pdf-документ"}' 127.0.0.1:8000/process_pdf
 ```
 
 ## Безопасность

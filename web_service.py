@@ -64,7 +64,7 @@ def process_pdf():
             result_json.strip('%') or json.dumps({'result': 'Ничего не найдено'}, ensure_ascii=False))
 
         # Устанавливаем заголовки CORS
-        response.headers.add('Access-Control-Allow-Origin', 'https://www.gcd-russia.com')
+        response.headers.add('Access-Control-Allow-Origin', 'https://example.com')
         response.headers.add('Access-Control-Allow-Methods', 'POST')
         response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
 
